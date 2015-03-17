@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true">
+    <TextView
+        android:id="@+id/date_divider_text"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/datebg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="October 31, 2014"
+        android:textSize="11sp"
+        android:textColor="#e8f7ff"
+        android:shadowRadius="1"
+        android:shadowDy="1"
+        android:shadowDx="0"
+        android:shadowColor="#061b26"/>
+</RelativeLayout>
